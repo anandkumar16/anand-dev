@@ -1,21 +1,14 @@
 "use client";
 import React from "react";
 import { SparklesCore } from "@/components/ui/sparkles";
-import { TypewriterEffect } from "@/components/ui/typewriter-effect";
+
 
 
 export function HeroSection() {
-  const words = [
-    {
-      text: "Anand",
-    },
-    {
-      text: "Yadav",
-    },
-  ];
+
   return (
     <div className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <TypewriterEffect words={words} />
+      Anand Yadav
       <div className="w-[40rem] h-40 relative">
         {/* Gradients */}
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
