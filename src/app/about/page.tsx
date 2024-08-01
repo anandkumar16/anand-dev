@@ -15,18 +15,20 @@ const About = () => {
           <p className="mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]">
             Tools & Technologies:
             <br/>
-            Frontend: React, HTML5, CSS3, JavaScript, Tailwind CSS, NextJS
+            Languages : C , C++ , Javascript , Typescript
             <br/>
-            Backend: Node.js, Express.js
+            Framework : ExpressJS , NodeJS , ReactJS , NextJs , Hono 
             <br/>
-            Database: MongoDB, Mongoose
+            Libraries : Bootstrap , TailwindCSS , Shadcn UI , Aceternity UI
             <br/>
-            Version Control: Git, GitHub
+            Database: MongoDB, PostgreSQl
+            <br/>
+            Tools: Git, GitHub, Postman
           </p>
         </div>  
-        <div className="flex justify-start m-14">
+        <div className="flex justify-between m-12">
         <Button
-        borderRadius="1.75rem"
+        borderRadius="1 rem"
         className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
       >
         Resume
@@ -34,10 +36,19 @@ const About = () => {
           <a href="https://leetcode.com/anand016/" target="_blank">
           <Button
           
-        borderRadius="1.75rem"
+        borderRadius="1 rem"
         className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
       >
         Leetcode
+      </Button>
+      </a>
+      <a href="https://github.com/anandkumar16" target="_blank">
+          <Button
+          
+        borderRadius="1 rem"
+        className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+      >
+        GitHub
       </Button>
       </a>
         </div>
