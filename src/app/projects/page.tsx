@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { GlareCard } from "@/components/ui/glare-card";
+import { Button } from "@/components/ui/moving-border";
 
 const courses = [
   {
@@ -54,8 +55,8 @@ const courses = [
 function page() {
 
   return (
-    <div className="min-h-screen bg-black py-12 pt-36 ">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mx-44 ">
+    <div className="min-h-screen bg-black mt-40">
+        <div className="pt-10 px-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 gap-8" >
         {courses.map((course, index) => (
           <GlareCard key={index} className="flex flex-col items-start justify-end py-8 px-6">
           <img
@@ -66,7 +67,8 @@ function page() {
             <p className="font-normal text-base text-neutral-200 mt-4">
               {course.description}
             </p>
-          {/* <button className="bg-white">github</button> */}
+          {/* <button>GitHub</button>
+          <button>Live</button> */}
           </GlareCard>
         ))}
     </div>
