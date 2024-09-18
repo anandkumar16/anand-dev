@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@/components/ui/moving-border";
+import ButtonLink from "@/components/ButtonLink";
 const About = () => {
   return (
     <div className="bg-black h-full w-full text-white sm:flex sm:justify-around about py-12 mt-8 overflow-x-hidden" id="about">
@@ -15,40 +15,23 @@ const About = () => {
           <p className="mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]">
             Tools & Technologies:
             <br/>
-            Languages : C , C++ , Javacript , TypeScript
+            Languages : C, C++, Javacript, TypeScript.
             <br/>
-            Framework : ExpressJS , NodeJS , ReactJS , NextJs , Hono 
+            Framework : ExpressJS, NodeJS, ReactJS, NextJs, Hono.
             <br/>
-            Libraries : Bootstrap , TailwindCSS.
+            Libraries : Bootstrap, TailwindCSS.
             <br/>
-            Database: MongoDB, PostgreSQl
+            Database: MongoDB, PostgreSQl.
             <br/>
-            Tools: Git, GitHub, Postman
+            Tools: Git, GitHub, Postman.
           </p>
         </div>  
         <div className="flex flex-col sm:flex-row justify-between gap-4 m-12 ">
-          <Button
-            borderRadius="1rem"
-            className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800 w-full sm:w-auto"
-          >
-            Resume
-          </Button>
-          <a href="https://leetcode.com/anand016/" target="_blank" className="w-full sm:w-auto">
-            <Button
-              borderRadius="1rem"
-              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800 w-full sm:w-auto"
-            >
-              LeetCode
-            </Button>
-          </a>
-          <a href="https://github.com/anandkumar16" target="_blank" className="w-full sm:w-auto">
-            <Button
-              borderRadius="1rem"
-              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800 w-full sm:w-auto"
-            >
-              GitHub
-            </Button>
-          </a>
+          <ButtonLink
+            url='https://github.com/anandkumar16'
+            text='GitHub'
+            padding={`p-3`}
+          />
         </div>
       </div>
     </div>

@@ -23,8 +23,8 @@ function Navbar({ className }: { className?: string }) {
             <MenuItem setActive={setActive} active={active} item="About">        
             </MenuItem>
             </Link>
-            <Link href={"/contact"}>
-            <MenuItem setActive={setActive} active={active} item="Contact">        
+            <Link href={"https://shorturl.at/9fUFI"} target="_blank">
+            <MenuItem setActive={setActive} active={active} item="cv">        
             </MenuItem>
             </Link>
           </Menu>

@@ -38,7 +38,7 @@ export function HeroSection() {
 			</ul>
 			<div className='hero relative h-[calc(100vh)] flex justify-center items-center text-white'>
 				<div className='pt-4 h-36 backdrop-blur-sm rounded-3xl'>
-					<h1 className='text-6xl sm:text-7xl font-extrabold mt-2'>Hi, I'm <span className='text-yellow-200 font-extrabold'>{text}</span></h1>
+					<h1 className='text-6xl sm:text-7xl font-extrabold mt-2'>Hi,I'm <span className='text-yellow-200 font-extrabold'>{text}</span></h1>
 					<p className='mt-3 text-xl'>I love to learn new technologies.</p>
 				</div>      
 			</div>			
