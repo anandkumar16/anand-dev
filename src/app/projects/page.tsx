@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import { GlareCard } from "@/components/ui/glare-card";
-import { Button } from "@/components/ui/moving-border";
 
 const courses = [
   {
