@@ -20,8 +20,14 @@ const courses = [
   {
     title: "Chess.com",
     description: "This is an online chess game built using Express, Socket.io, and the Chess.js library.",
-    image: "/chess.png",
+    image: "/chessbgm.jpg",
     link: "https://chess-com-xkwc.onrender.com/"
+  },
+  {
+    title: "Music academy",
+    description: "Developed a web app for a music school, featuring personalized courses, webinars.",
+    image: "musicapp.jpg",
+    link: "https://music-academy1.onrender.com/"
   },
   {
     title: "Medium Clone",
@@ -30,21 +36,9 @@ const courses = [
     link: "www.google.com" 
   },
   {
-    title: "Trackify",
-    description: "An EJS, Socket.io, and Express application used to track any person's location in real-time.",
-    image: "loc.png",
-    link: "https://trackify-d3ha.onrender.com/"
-  },
-  {
-    title: "Music academy",
-    description: "A Next.js application with Aceternity UI, designed for selling music courses online.",
-    image: "music.png",
-    link: "https://music-academy1.onrender.com/"
-  },
-  {
-    title: "AI text-generator",
-    description: " this is an application which uses expressJS and utilized the Gemini AI model to generate text.",
-    image: "text.png",
+    title: "DostAI:AI-Powered Web App",
+    description: "Developed an app integrating React and Google Generative AI for real-time text-generation.",
+    image: "dostai.jpg",
     link: "www.google.com"
   },
   {
