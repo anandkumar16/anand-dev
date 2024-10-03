@@ -18,6 +18,12 @@ const courses = [
     link: "https://sketchpad-pi.vercel.app/"
   },
   {
+    title: "CodeVault",
+    description: "Built a web app for managing code snippets, allowing users to create, update, delete, and view pastes.",
+    image: "vault.jpg",
+    link: "https://codevault-vert.vercel.app/"
+  },
+  {
     title: "Chess.com",
     description: "This is an online chess game built using Express, Socket.io, and the Chess.js library.",
     image: "/chessbgm.jpg",
@@ -36,7 +42,7 @@ const courses = [
     link: "www.google.com" 
   },
   {
-    title: "DostAI:AI-Powered Web App",
+    title: "DostAI",
     description: "Developed an app integrating React and Google Generative AI for real-time text-generation.",
     image: "dostai.jpg",
     link: "www.google.com"
@@ -45,14 +51,8 @@ const courses = [
     title: "Telegram Bot",
     description: "An automated bot for Telegram, designed to interact with users and perform specific tasks.",
     image: "bot.png",
-    link: "www.google.com"
+    link: "http://t.me/ExtroMediaBot"
   },
-  {
-    title: "payTM clone",
-    description: "Developed a digital payment application using React, Express, Tailwind CSS, and PostgreSQL.",
-    image: "paytm.png",
-    link: "www.google.com"
-  }
 ];
 
 function page() {
