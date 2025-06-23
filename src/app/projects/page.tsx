@@ -6,6 +6,12 @@ import Footer from "@/components/Footer";
 
 const courses = [
   {
+    title: "Synapsechat",
+    description: "Built a real-time chat platform with Next,Socket.io,Prisma—featuring seamless messaging and a slick",
+    image: "/discord.png",
+    link: "https://synapsechat-production.up.railway.app/"
+  },
+  {
     title: "Homify",
     description: "Homify is a vacation rental platform that enables users to browse, book, and manage properties.",
     image: "/airbnb.jpg",
@@ -30,28 +36,10 @@ const courses = [
     link: "https://chess-com-xkwc.onrender.com/"
   },
   {
-    title: "Music academy",
-    description: "Developed a web app for a music school, featuring personalized courses, webinars.",
-    image: "musicapp.jpg",
-    link: "https://music-academy1.onrender.com/"
-  },
-  {
-    title: "Medium Clone",
-    description: "Medium-like blogging platform built using TypeScript, PostgreSQL, Express, React, and Wrangler",
-    image: "image.png",
-    link: "www.google.com" 
-  },
-  {
     title: "DostAI",
     description: "Developed an app integrating React and Google Generative AI for real-time text-generation.",
     image: "dostai.jpg",
-    link: "www.google.com"
-  },
-  {
-    title: "Telegram Bot",
-    description: "An automated bot for Telegram, designed to interact with users and perform specific tasks.",
-    image: "bot.png",
-    link: "http://t.me/ExtroMediaBot"
+    link: "https://dostai.vercel.app/"
   },
 ];
 
